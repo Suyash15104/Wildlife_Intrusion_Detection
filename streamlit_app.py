@@ -14,7 +14,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # 2. Install required libraries
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 # 3. Imports
 from ultralytics import YOLO
@@ -126,7 +126,7 @@ print("🎉 ALL NIGHT-TIME VIDEOS PROCESSED SUCCESSFULLY!")
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -210,7 +210,7 @@ print("✅ DONE!")
 print("📁 Output saved as:", output_video)
 print("🎞 Frames processed:", frame_count)
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -370,7 +370,7 @@ print(f"Processing Speed (FPS) : {fps:.2f}")
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -459,7 +459,7 @@ print("Output saved as:", output_video)
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -558,7 +558,7 @@ print("📁 Output saved at:", output_video)
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -704,7 +704,7 @@ print("📁 Output saved at:", output_video)
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -818,7 +818,7 @@ print("📁 Output saved at:", output_video)
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -948,7 +948,7 @@ drive.mount('/content/drive')
 # ============================
 # Install dependencies
 # ============================
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -1066,7 +1066,7 @@ drive.mount('/content/drive')
 # ============================
 # Install dependencies
 # ============================
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -1197,7 +1197,7 @@ drive.mount('/content/drive')
 # ============================
 # Install dependencies
 # ============================
-!pip install -q ultralytics opencv-python
+pip install -q ultralytics opencv-python
 
 from ultralytics import YOLO
 import cv2
@@ -1322,7 +1322,7 @@ print("🎉 ALL VIDEOS COMPLETED")
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q ultralytics opencv-python torchvision pillow
+pip install -q ultralytics opencv-python torchvision pillow
 
 from ultralytics import YOLO
 import cv2
@@ -1466,7 +1466,7 @@ I need to install the specified Python libraries and `cloudflared`. I will use `
 """
 
 # Install libraries
-!pip install streamlit streamlit-webrtc opencv-python-headless ultralytics
+pip install streamlit streamlit-webrtc opencv-python-headless ultralytics
 # Download stable tunneling tool
 !wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 !dpkg -i cloudflared-linux-amd64.deb
